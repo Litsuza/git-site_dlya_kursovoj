@@ -1,0 +1,64 @@
+#vse{
+    width:1300px;
+    background-color:white;
+    background-size: 100% 100%;
+    position:relative;
+    font-family:Segoe UI;
+    color:rgb(39, 39, 151);
+    transform:translateX(-50%);
+    left:50%;
+}
+    #zagolovok{
+        font-size:50pt;
+        margin:5% 10%;
+        margin-top:10%;
+    }
+    #info_o_galeree{
+        margin:0 10%;
+        font-size:25pt;
+    }
+    #all_arts{
+        width:100%;
+        position:relative;
+        display:flex;
+        flex-wrap:wrap;
+    }
+        .art{
+            width:37.5%;
+            margin:5% auto;
+        }
+            #png1{
+                margin-right:2.5%;
+            }
+            #png2{
+                margin-left:2.5%;
+            }
+        .max-art{
+            width:80%;
+            margin:0 auto 5%;
+        }
+    #back{
+        position:fixed;
+        top:0;
+        right:0;
+        margin:5%;
+        width:150px;
+    }
+@media screen and 
+(max-width:1300px)
+{
+    #vse{
+        width:100%;
+    }
+        #zagolovok{
+            font-size:20pt;
+        }
+        #info_o_galeree{
+            font-size:13pt;
+            width:50%;
+        }
+        #back{
+            width:20%;
+            margin-top:0;
+        }
+}

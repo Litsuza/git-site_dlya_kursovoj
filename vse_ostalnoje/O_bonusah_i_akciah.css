@@ -1,0 +1,66 @@
+#vse{
+    width:1300px;
+    background-color:white;
+    background-size: 100% 100%;
+    position:relative;
+    font-family:Segoe UI;
+    color:rgb(206, 187, 79);
+    transform:translateX(-50%);
+    left:50%;
+}
+#zagolovok{
+    font-size:50pt;
+    margin:5% 10%;
+    margin-top:10%;
+}
+#dollar_i_tri_rublja{
+    width:20%;
+    margin-right:25%;
+    position:relative;
+    float:right;
+}
+#text{
+    font-size:20px;
+    margin:0 10%;
+}
+#back{
+    position:fixed;
+    margin-top:10%;
+    margin-right:5%;
+    top:0;
+    right:0;
+    width:150px;
+}
+#tablica,td{
+    width:80%;
+    border:5px solid gold;
+    margin:10% 10%;
+}
+@media screen and 
+(max-width:1300px)
+{
+    #vse{
+        width:100%;
+    }
+}
+@media screen and 
+(max-width:1000px)
+{
+    #zagolovok{
+        font-size:20pt;
+    }
+    #dollar_i_tri_rublja{
+        width:50%;
+        margin:0 25%;
+    }
+    #text{
+        text-align:center;
+        font-size:16px;
+    }
+    #back{
+        width:20%;
+    }
+    #tablica{
+        font-size:10px;
+    }
+}
