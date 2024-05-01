@@ -1,0 +1,52 @@
+#vse{
+    width:1000px;
+    height:100vh;
+    font-size:30px;
+    font-family:Segoe UI;
+    position:relative;
+    transform:translateX(-50%);
+    right:-50%;
+}
+h1{
+    width:200px;
+    font-size:30px;
+    position:relative;
+    transform:translateX(-50%);
+    text-align:center;
+    top:10%;
+    left:50%;
+}
+p{
+    width:60%;
+    position:relative;
+    right:-20%;
+    top:15%;
+}
+#litsuza_itog{
+    width:45%;
+    height:max-content;
+    position:absolute;
+    bottom:0;
+    transform:translateX(-50%);
+    left:50%;
+}
+@media screen and (max-width:1000px)
+{
+    #vse{
+        width:100%;
+        font-size:23px;
+    }    
+}
+@media screen and (max-height:860px) {
+    #litsuza_itog{
+        height:50%;
+        width:max-content;
+    }
+}
+@media screen and (max-width:380px)
+{
+    #litsuza_itog{
+        width:70%;
+        height:max-content;
+    }    
+}

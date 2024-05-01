@@ -35,6 +35,9 @@ body{
     .kartinka_s_cenoj{
         height:20%;
     }
+    .sami_kartinki_s_cenoj{
+        height:100%;
+    }
     .kisti{
         position:absolute;
         width:30%;
@@ -139,6 +142,16 @@ body{
 /* Текстовые айдишники */
 #info_dna{
     color:white;
+}
+A{
+    color:white;
+    text-decoration:none;
+}
+A:visited{
+    color:rgb(201, 201, 201);
+}
+A:active{
+    color:greenyellow;
 }
 #copyright{
     position:absolute;
@@ -386,6 +399,10 @@ body{
     .kartinka_s_cenoj{
         height:max-content;
         width:22%;
+    }
+    .sami_kartinki_s_cenoj{
+        height:max-content;
+        width:100%;
     }
     .info_o_chem-to{
         transform:none;

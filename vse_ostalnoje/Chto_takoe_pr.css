@@ -1,0 +1,53 @@
+h1{
+    font-size: 40pt;
+    margin:5% 10%;
+}
+#vse{
+    width:1300px;
+    position:relative;
+    transform:translateX(-50%);
+    left:50%;
+    font-family:Segoe UI;
+}
+#back{
+    position:fixed;
+    margin-top:10%;
+    margin-right:5%;
+    top:0;
+    right:0;
+    width:150px;
+}
+#Psihodelika{
+    width:20%;
+    float:right;
+    margin-right:25%;
+}
+p{
+    margin:0 10%;
+    font-size:35px;
+}
+@media screen and (max-width:1300px) {
+    #vse{
+        width:100%;
+    }
+    #Psihodelika{
+        width:50%;
+        margin:0 25%;
+    }
+}
+@media screen and (max-width:850px) {
+    h1{
+        font-size:30pt;
+    }
+    #back{
+        width:80px;
+    }
+    p{
+        font-size:10pt;
+    }
+}
+@media screen and (max-width:630px) {
+    h1{
+        font-size:12pt;
+    }
+}
